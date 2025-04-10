@@ -224,7 +224,7 @@ L.control.layers({
     "OpenTopoMap": L.tileLayer.provider('OpenTopoMap').addTo(map),
     "OpenStreetMap": L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map),
 }, {
-    "Stops": overlays.stops,
+    "Lieblingsorte anderer Webmapper*innen": overlays.stops,
 }).addTo(map);
 
 // Maßstab
